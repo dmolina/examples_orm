@@ -33,9 +33,9 @@ Compared ORMs
 - *[MyBatis](http://mybatis.github.io/mybatis-3/)* This is the more flexible ORM, useful to allow students to design their own database. 
 
 - *[EBean](http://www.avaje.org/)* This is a simple ORM using JPA. 
-  > *Good* It is very simple to uses and configurate. 
-  > *Average* Manual documentation, sometimes examples too simple.
-  > *Bad* Error messages not very informative. 
+  - **Good** It is very simple to uses and configurate. 
+  - **Average** Manual documentation, sometimes examples too simple.
+  - **Bad** Error messages not very informative. 
 
 Conclusions
 -----------
