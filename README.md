@@ -5,17 +5,19 @@ Same example (an library data) using different Java ORMs to compare them.
 
 The example has the following tables: 
 
-- *book* Table with a list of books. 
+- **book** Table with a list of books. 
 
-- *author* author of the books. 
+- **author** author of the books. 
 
-- *publish* table that relates the books with the author (a book can have several authors and an author can publish  
+- **publish** table that relates the books with the author (a book can have several authors and an author can publish  
   several books. 
 
-- *category* table with the available categories for the books. 
+- **category** table with the available categories for the books. 
 
-- *suggestion* table that relates the books with their categories. 
+- **suggestion** table that relates the books with their categories. 
 
+The definition (*tables.sql*) and initial data (*data.sql*) are in the sql directory. The same tables are used for
+the different ORMs (thus the ddl creation is disable when it is available).
 
 Testing
 -------
