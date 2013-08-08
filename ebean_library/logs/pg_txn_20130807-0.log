@@ -1,0 +1,480 @@
+txn[1003], 22:33:14.632, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1003], 22:33:14.649, FindMany type[Book] origin[BYp0Q.vl9tZ.CfzBAr] exeMicros[17153] rows[0] name[] predicates[] bind[] 
+txn[1004], 22:33:14.659, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1004], 22:33:14.659, FindMany type[Book] origin[BYp0Q.vl9tZ.znWjN] exeMicros[513] rows[0] name[] predicates[] bind[] 
+txn[1006], 22:33:14.667, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1006], 22:33:14.667, FindMany type[Book] origin[BYp0Q.vl9tZ.NVKhd] exeMicros[518] rows[0] name[] predicates[] bind[] 
+txn[1007], 22:33:14.929, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1007], 22:33:14.929, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxdy] exeMicros[481] rows[0] name[] predicates[] bind[] 
+txn[1007], 22:33:14.953, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1007], 22:33:14.954, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxsz] exeMicros[559] rows[0] name[] predicates[] bind[] 
+txn[1001], 22:50:52.461, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1001], 22:50:52.483, FindMany type[Book] origin[BYp0Q.vl9tZ.NVKhd] exeMicros[21796] rows[0] name[] predicates[] bind[] 
+txn[1002], 22:50:52.612, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1002], 22:50:52.612, FindMany type[Book] origin[BYp0Q.vl9tZ.CfzBAr] exeMicros[555] rows[0] name[] predicates[] bind[] 
+txn[1003], 22:50:52.613, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1003], 22:50:52.614, FindMany type[Book] origin[BYp0Q.vl9tZ.znWjN] exeMicros[456] rows[0] name[] predicates[] bind[] 
+txn[1005], 22:50:52.621, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1005], 22:50:52.622, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxdy] exeMicros[512] rows[0] name[] predicates[] bind[] 
+txn[1005], 22:50:52.651, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1005], 22:50:52.652, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxsz] exeMicros[540] rows[0] name[] predicates[] bind[] 
+txn[1006], 22:50:52.655, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1006], 22:50:52.689, ERROR executing query:   bindLog[] error[ERROR: column t0.id does not exist\n   Position: 8] 
+txn[1006], 22:50:52.694, Rollback 
+txn[1007], 22:50:52.695, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 22:50:52.695, ERROR executing query:   bindLog[] error[ERROR: column t0.id does not exist\n   Position: 8] 
+txn[1007], 22:50:52.696, Rollback 
+txn[1001], 22:52:09.460, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1001], 22:52:09.481, FindMany type[Book] origin[BYp0Q.vl9tZ.CfzBAr] exeMicros[21115] rows[0] name[] predicates[] bind[] 
+txn[1002], 22:52:09.492, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1002], 22:52:09.493, FindMany type[Book] origin[BYp0Q.vl9tZ.znWjN] exeMicros[554] rows[0] name[] predicates[] bind[] 
+txn[1004], 22:52:09.499, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1004], 22:52:09.500, FindMany type[Book] origin[BYp0Q.vl9tZ.NVKhd] exeMicros[517] rows[0] name[] predicates[] bind[] 
+txn[1005], 22:52:09.612, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1005], 22:52:09.612, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxdy] exeMicros[515] rows[0] name[] predicates[] bind[] 
+txn[1005], 22:52:09.636, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1005], 22:52:09.637, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxsz] exeMicros[509] rows[0] name[] predicates[] bind[] 
+txn[1001], 22:57:35.855, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1001], 22:57:35.867, ERROR executing query:   bindLog[] error[ERROR: column t0.date does not exist\n   Position: 37] 
+txn[1001], 22:57:35.887, Rollback 
+txn[1002], 22:57:35.897, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1002], 22:57:35.898, ERROR executing query:   bindLog[] error[ERROR: column t0.date does not exist\n   Position: 37] 
+txn[1002], 22:57:35.898, Rollback 
+txn[1004], 22:57:35.907, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1004], 22:57:35.908, ERROR executing query:   bindLog[] error[ERROR: column t0.date does not exist\n   Position: 37] 
+txn[1004], 22:57:35.908, Rollback 
+txn[1005], 22:57:35.910, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1005], 22:57:35.911, ERROR executing query:   bindLog[] error[ERROR: column t0.date does not exist\n   Position: 37] 
+txn[1005], 22:57:35.911, Rollback 
+txn[1001], 22:58:15.381, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1001], 22:58:15.392, ERROR executing query:   bindLog[] error[ERROR: column t0.date does not exist\n   Position: 37] 
+txn[1001], 22:58:15.412, Rollback 
+txn[1002], 22:58:15.421, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1002], 22:58:15.422, ERROR executing query:   bindLog[] error[ERROR: column t0.date does not exist\n   Position: 37] 
+txn[1002], 22:58:15.422, Rollback 
+txn[1004], 22:58:15.431, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1004], 22:58:15.431, ERROR executing query:   bindLog[] error[ERROR: column t0.date does not exist\n   Position: 37] 
+txn[1004], 22:58:15.432, Rollback 
+txn[1005], 22:58:15.434, select t0.id as c0, t0.title as c1, t0.date as c2  from book t0 
+txn[1005], 22:58:15.435, ERROR executing query:   bindLog[] error[ERROR: column t0.date does not exist\n   Position: 37] 
+txn[1005], 22:58:15.435, Rollback 
+txn[1006], 22:58:15.439, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 22:58:15.444, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1001], 23:00:19.642, select t0.id as c0, t0.title as c1  from book t0 
+txn[1001], 23:00:19.667, FindMany type[Book] origin[BYp0Q.vl9tZ.CfzBAr] exeMicros[24842] rows[2] name[] predicates[] bind[] 
+txn[1001], 23:00:19.674, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1002], 23:00:19.693, select t0.id as c0, t0.title as c1  from book t0 
+txn[1002], 23:00:19.694, FindMany type[Book] origin[BYp0Q.vl9tZ.znWjN] exeMicros[1013] rows[2] name[] predicates[] bind[] 
+txn[1004], 23:00:19.700, select t0.id as c0, t0.title as c1  from book t0 
+txn[1004], 23:00:19.701, FindMany type[Book] origin[BYp0Q.vl9tZ.NVKhd] exeMicros[644] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:00:19.824, select t0.id as c0, t0.title as c1  from book t0 
+txn[1005], 23:00:19.825, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxdy] exeMicros[641] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:00:19.851, select t0.id as c0, t0.title as c1  from book t0 
+txn[1005], 23:00:19.851, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxsz] exeMicros[609] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:00:19.852, select t0.id as c0, t0.title as c1  from book t0 
+txn[1005], 23:00:19.852, FindMany type[Book] origin[BYp0Q.vl9tZ.5px70] exeMicros[266] rows[2] name[] predicates[] bind[] 
+txn[1006], 23:00:19.856, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 23:00:19.858, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1001], 23:08:57.073, select t0.id as c0, t0.title as c1  from book t0 
+txn[1001], 23:08:57.097, FindMany type[Book] origin[BYp0Q.vl9tZ.CfzBAr] exeMicros[23783] rows[2] name[] predicates[] bind[] 
+txn[1001], 23:08:57.104, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1004], 23:08:57.128, select t0.id as c0, t0.title as c1  from book t0 
+txn[1004], 23:08:57.129, FindMany type[Book] origin[BYp0Q.vl9tZ.NVKhd] exeMicros[665] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:08:57.253, select t0.id as c0, t0.title as c1  from book t0 
+txn[1005], 23:08:57.253, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxdy] exeMicros[739] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:08:57.286, select t0.id as c0, t0.title as c1  from book t0 
+txn[1005], 23:08:57.287, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxsz] exeMicros[607] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:08:57.287, select t0.id as c0, t0.title as c1  from book t0 
+txn[1005], 23:08:57.288, FindMany type[Book] origin[BYp0Q.vl9tZ.5px70] exeMicros[471] rows[2] name[] predicates[] bind[] 
+txn[1006], 23:08:57.291, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 23:08:57.294, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1001], 23:09:11.776, select t0.id as c0, t0.title as c1  from book t0 
+txn[1001], 23:09:11.804, FindMany type[Book] origin[BYp0Q.vl9tZ.CfzBAr] exeMicros[28148] rows[2] name[] predicates[] bind[] 
+txn[1001], 23:09:11.812, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:09:11.817, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[4608] rows[1:1] name[] predicates[] bind[1] 
+txn[1001], 23:09:11.817, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:09:11.818, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[1128] rows[1:2] name[] predicates[] bind[2] 
+txn[1004], 23:09:11.833, select t0.id as c0, t0.title as c1  from book t0 
+txn[1004], 23:09:11.834, FindMany type[Book] origin[BYp0Q.vl9tZ.NVKhd] exeMicros[649] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:09:11.959, select t0.id as c0, t0.title as c1  from book t0 
+txn[1005], 23:09:11.960, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxdy] exeMicros[636] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:09:11.990, select t0.id as c0, t0.title as c1  from book t0 
+txn[1005], 23:09:11.990, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxsz] exeMicros[594] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:09:11.991, select t0.id as c0, t0.title as c1  from book t0 
+txn[1005], 23:09:11.991, FindMany type[Book] origin[BYp0Q.vl9tZ.5px70] exeMicros[491] rows[2] name[] predicates[] bind[] 
+txn[1006], 23:09:12.005, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1006], 23:09:12.006, FindMany type[Category] origin[5OwK7.CJICNk.BU_Bzh] exeMicros[816] rows[5] name[] predicates[] bind[] 
+txn[1006], 23:09:12.021, Rollback 
+txn[1007], 23:09:12.023, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 23:09:12.023, FindMany type[Category] origin[5OwK7.CJICNk.DByVga] exeMicros[774] rows[5] name[] predicates[] bind[] 
+txn[1007], 23:09:12.028, Rollback 
+txn[1001], 23:23:05.027, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1001], 23:23:05.141, FindMany type[Book] origin[BYp0Q.vl9tZ.CfzBAr] exeMicros[113944] rows[2] name[] predicates[] bind[] 
+txn[1001], 23:23:05.149, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:23:05.154, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[5076] rows[1:1] name[] predicates[] bind[1] 
+txn[1001], 23:23:05.154, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:23:05.156, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[1458] rows[1:2] name[] predicates[] bind[2] 
+txn[1002], 23:23:05.164, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1002], 23:23:05.165, FindMany type[Book] origin[BYp0Q.vl9tZ.znWjN] exeMicros[762] rows[2] name[] predicates[] bind[] 
+txn[1004], 23:23:05.173, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:23:05.173, FindMany type[Book] origin[BYp0Q.vl9tZ.NVKhd] exeMicros[794] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:23:05.294, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:23:05.295, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxdy] exeMicros[816] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:23:05.319, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:23:05.320, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxsz] exeMicros[666] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:23:05.321, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:23:05.321, FindMany type[Book] origin[BYp0Q.vl9tZ.5px70] exeMicros[341] rows[2] name[] predicates[] bind[] 
+txn[1001], 23:24:07.491, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1001], 23:24:07.592, FindMany type[Book] origin[BYp0Q.vl9tZ.CfzBAr] exeMicros[100871] rows[2] name[] predicates[] bind[] 
+txn[1001], 23:24:07.600, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:24:07.605, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[4630] rows[1:1] name[] predicates[] bind[1] 
+txn[1001], 23:24:07.605, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:24:07.606, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[1118] rows[1:2] name[] predicates[] bind[2] 
+txn[1002], 23:24:07.614, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1002], 23:24:07.614, FindMany type[Book] origin[BYp0Q.vl9tZ.znWjN] exeMicros[767] rows[2] name[] predicates[] bind[] 
+txn[1004], 23:24:07.622, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:24:07.623, FindMany type[Book] origin[BYp0Q.vl9tZ.NVKhd] exeMicros[805] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:24:07.810, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:24:07.811, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxdy] exeMicros[843] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:24:07.837, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:24:07.838, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxsz] exeMicros[663] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:24:07.838, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:24:07.838, FindMany type[Book] origin[BYp0Q.vl9tZ.5px70] exeMicros[270] rows[2] name[] predicates[] bind[] 
+txn[1006], 23:24:07.842, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1006], 23:24:07.843, FindMany type[Category] origin[5OwK7.CJICNk.BU_Bzh] exeMicros[823] rows[5] name[] predicates[] bind[] 
+txn[1006], 23:24:07.856, Rollback 
+txn[1007], 23:24:07.858, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 23:24:07.858, FindMany type[Category] origin[5OwK7.CJICNk.DByVga] exeMicros[828] rows[5] name[] predicates[] bind[] 
+txn[1007], 23:24:07.870, Rollback 
+txn[1001], 23:27:43.185, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1001], 23:27:43.292, FindMany type[Book] origin[BYp0Q.vl9tZ.CfzBAr] exeMicros[106987] rows[2] name[] predicates[] bind[] 
+txn[1001], 23:27:43.300, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:27:43.304, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[4679] rows[1:1] name[] predicates[] bind[1] 
+txn[1001], 23:27:43.305, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:27:43.306, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[1129] rows[1:2] name[] predicates[] bind[2] 
+txn[1002], 23:27:43.313, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1002], 23:27:43.314, FindMany type[Book] origin[BYp0Q.vl9tZ.znWjN] exeMicros[758] rows[2] name[] predicates[] bind[] 
+txn[1004], 23:27:43.321, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:27:43.322, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxdy] exeMicros[760] rows[2] name[] predicates[] bind[] 
+txn[1004], 23:27:43.355, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:27:43.356, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxsz] exeMicros[592] rows[2] name[] predicates[] bind[] 
+txn[1004], 23:27:43.356, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:27:43.357, FindMany type[Book] origin[BYp0Q.vl9tZ.5px70] exeMicros[462] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:27:43.358, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:27:43.359, FindMany type[Book] origin[BYp0Q.vl9tZ.NVKhd] exeMicros[561] rows[2] name[] predicates[] bind[] 
+txn[1006], 23:27:43.470, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1006], 23:27:43.471, FindMany type[Category] origin[5OwK7.CJICNk.BU_Bzh] exeMicros[1046] rows[5] name[] predicates[] bind[] 
+txn[1006], 23:27:43.484, Rollback 
+txn[1007], 23:27:43.486, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 23:27:43.487, FindMany type[Category] origin[5OwK7.CJICNk.DByVga] exeMicros[812] rows[5] name[] predicates[] bind[] 
+txn[1007], 23:27:43.492, Rollback 
+txn[1001], 23:30:06.879, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1001], 23:30:06.976, FindMany type[Book] origin[BYp0Q.vl9tZ.CfzBAr] exeMicros[97151] rows[2] name[] predicates[] bind[] 
+txn[1001], 23:30:06.984, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:30:06.989, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[4991] rows[1:1] name[] predicates[] bind[1] 
+txn[1001], 23:30:06.989, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:30:06.990, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[1152] rows[1:2] name[] predicates[] bind[2] 
+txn[1002], 23:30:06.998, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1002], 23:30:06.998, FindMany type[Book] origin[BYp0Q.vl9tZ.znWjN] exeMicros[820] rows[2] name[] predicates[] bind[] 
+txn[1004], 23:30:07.005, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:30:07.006, FindMany type[Book] origin[BYp0Q.vl9tZ.NVKhd] exeMicros[757] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:30:07.133, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:30:07.133, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxdy] exeMicros[811] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:30:07.159, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:30:07.160, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxsz] exeMicros[666] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:30:07.160, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:30:07.160, FindMany type[Book] origin[BYp0Q.vl9tZ.5px70] exeMicros[257] rows[2] name[] predicates[] bind[] 
+txn[1006], 23:30:07.164, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1006], 23:30:07.165, FindMany type[Category] origin[5OwK7.CJICNk.BU_Bzh] exeMicros[840] rows[5] name[] predicates[] bind[] 
+txn[1006], 23:30:07.179, Rollback 
+txn[1007], 23:30:07.181, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 23:30:07.182, FindMany type[Category] origin[5OwK7.CJICNk.DByVga] exeMicros[744] rows[5] name[] predicates[] bind[] 
+txn[1007], 23:30:07.187, Rollback 
+txn[1001], 23:30:23.485, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1001], 23:30:23.590, FindMany type[Book] origin[BYp0Q.vl9tZ.NVKhd] exeMicros[104118] rows[2] name[] predicates[] bind[] 
+txn[1002], 23:30:23.711, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1002], 23:30:23.712, FindMany type[Book] origin[BYp0Q.vl9tZ.CfzBAr] exeMicros[845] rows[2] name[] predicates[] bind[] 
+txn[1002], 23:30:23.725, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1002], 23:30:23.731, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[6361] rows[1:1] name[] predicates[] bind[1] 
+txn[1002], 23:30:23.732, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1002], 23:30:23.733, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[1195] rows[1:2] name[] predicates[] bind[2] 
+txn[1003], 23:30:23.734, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1003], 23:30:23.735, FindMany type[Book] origin[BYp0Q.vl9tZ.znWjN] exeMicros[794] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:30:23.740, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:30:23.741, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxdy] exeMicros[772] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:30:23.769, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:30:23.769, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxsz] exeMicros[621] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:30:23.769, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:30:23.770, FindMany type[Book] origin[BYp0Q.vl9tZ.5px70] exeMicros[223] rows[2] name[] predicates[] bind[] 
+txn[1006], 23:30:23.773, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1006], 23:30:23.774, FindMany type[Category] origin[5OwK7.CJICNk.BU_Bzh] exeMicros[768] rows[5] name[] predicates[] bind[] 
+txn[1006], 23:30:23.785, Rollback 
+txn[1007], 23:30:23.786, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 23:30:23.787, FindMany type[Category] origin[5OwK7.CJICNk.DByVga] exeMicros[767] rows[5] name[] predicates[] bind[] 
+txn[1007], 23:30:23.792, Rollback 
+txn[1001], 23:36:15.384, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1001], 23:36:15.479, FindMany type[Book] origin[BYp0Q.vl9tZ.NVKhd] exeMicros[94817] rows[2] name[] predicates[] bind[] 
+txn[1002], 23:36:15.598, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1002], 23:36:15.599, FindMany type[Book] origin[BYp0Q.vl9tZ.CfzBAr] exeMicros[827] rows[2] name[] predicates[] bind[] 
+txn[1002], 23:36:15.607, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1002], 23:36:15.612, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[4917] rows[1:1] name[] predicates[] bind[1] 
+txn[1002], 23:36:15.612, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1002], 23:36:15.614, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[1228] rows[1:2] name[] predicates[] bind[2] 
+txn[1003], 23:36:15.615, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1003], 23:36:15.616, FindMany type[Book] origin[BYp0Q.vl9tZ.znWjN] exeMicros[752] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:36:15.627, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:36:15.627, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxdy] exeMicros[813] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:36:15.653, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:36:15.653, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxsz] exeMicros[613] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:36:15.654, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:36:15.654, FindMany type[Book] origin[BYp0Q.vl9tZ.5px70] exeMicros[259] rows[2] name[] predicates[] bind[] 
+txn[1006], 23:36:15.657, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1006], 23:36:15.658, FindMany type[Category] origin[5OwK7.CJICNk.BU_Bzh] exeMicros[780] rows[5] name[] predicates[] bind[] 
+txn[1006], 23:36:15.669, Rollback 
+txn[1007], 23:36:15.671, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 23:36:15.671, FindMany type[Category] origin[5OwK7.CJICNk.DByVga] exeMicros[702] rows[5] name[] predicates[] bind[] 
+txn[1007], 23:36:15.676, Rollback 
+txn[1001], 23:36:52.325, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1001], 23:36:52.423, FindMany type[Book] origin[BYp0Q.vl9tZ.CfzBAr] exeMicros[98425] rows[2] name[] predicates[] bind[] 
+txn[1001], 23:36:52.431, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:36:52.436, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[4638] rows[1:1] name[] predicates[] bind[1] 
+txn[1001], 23:36:52.436, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:36:52.437, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[1138] rows[1:2] name[] predicates[] bind[2] 
+txn[1002], 23:36:52.444, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1002], 23:36:52.445, FindMany type[Book] origin[BYp0Q.vl9tZ.znWjN] exeMicros[783] rows[2] name[] predicates[] bind[] 
+txn[1004], 23:36:52.453, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:36:52.454, FindMany type[Book] origin[BYp0Q.vl9tZ.NVKhd] exeMicros[782] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:36:52.612, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:36:52.613, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxdy] exeMicros[802] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:36:52.638, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:36:52.639, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxsz] exeMicros[644] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:36:52.639, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:36:52.640, FindMany type[Book] origin[BYp0Q.vl9tZ.5px70] exeMicros[278] rows[2] name[] predicates[] bind[] 
+txn[1006], 23:36:52.644, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1006], 23:36:52.645, FindMany type[Category] origin[5OwK7.CJICNk.BU_Bzh] exeMicros[814] rows[5] name[] predicates[] bind[] 
+txn[1006], 23:36:52.707, Rollback 
+txn[1007], 23:36:52.708, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 23:36:52.709, FindMany type[Category] origin[5OwK7.CJICNk.DByVga] exeMicros[711] rows[5] name[] predicates[] bind[] 
+txn[1007], 23:36:52.714, Rollback 
+txn[1001], 23:41:22.424, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1001], 23:41:22.528, FindMany type[Book] origin[BYp0Q.vl9tZ.CfzBAr] exeMicros[103925] rows[2] name[] predicates[] bind[] 
+txn[1001], 23:41:22.535, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:41:22.541, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[5305] rows[1:1] name[] predicates[] bind[1] 
+txn[1001], 23:41:22.541, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:41:22.542, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[1255] rows[1:2] name[] predicates[] bind[2] 
+txn[1002], 23:41:22.550, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1002], 23:41:22.550, FindMany type[Book] origin[BYp0Q.vl9tZ.znWjN] exeMicros[789] rows[2] name[] predicates[] bind[] 
+txn[1003], 23:41:22.554, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0  where name = ?  
+txn[1003], 23:41:22.561, ERROR executing query:   bindLog[Ensayo] error[ERROR: column "name" does not exist\n   Position: 93] 
+txn[1003], 23:41:22.565, Rollback 
+txn[1004], 23:41:22.570, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:41:22.584, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxdy] exeMicros[13995] rows[2] name[] predicates[] bind[] 
+txn[1004], 23:41:22.607, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:41:22.607, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxsz] exeMicros[616] rows[2] name[] predicates[] bind[] 
+txn[1004], 23:41:22.608, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:41:22.608, FindMany type[Book] origin[BYp0Q.vl9tZ.5px70] exeMicros[464] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:41:22.611, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:41:22.612, FindMany type[Book] origin[BYp0Q.vl9tZ.NVKhd] exeMicros[557] rows[2] name[] predicates[] bind[] 
+txn[1006], 23:41:22.732, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1006], 23:41:22.733, FindMany type[Category] origin[5OwK7.CJICNk.BU_Bzh] exeMicros[819] rows[5] name[] predicates[] bind[] 
+txn[1006], 23:41:22.738, Rollback 
+txn[1007], 23:41:22.740, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 23:41:22.740, FindMany type[Category] origin[5OwK7.CJICNk.DByVga] exeMicros[723] rows[5] name[] predicates[] bind[] 
+txn[1007], 23:41:22.745, Rollback 
+txn[1001], 23:41:48.390, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1001], 23:41:48.490, FindMany type[Book] origin[BYp0Q.vl9tZ.CfzBAr] exeMicros[99511] rows[2] name[] predicates[] bind[] 
+txn[1001], 23:41:48.498, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:41:48.503, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[4868] rows[1:1] name[] predicates[] bind[1] 
+txn[1001], 23:41:48.503, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:41:48.504, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[1140] rows[1:2] name[] predicates[] bind[2] 
+txn[1002], 23:41:48.511, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1002], 23:41:48.512, FindMany type[Book] origin[BYp0Q.vl9tZ.znWjN] exeMicros[788] rows[2] name[] predicates[] bind[] 
+txn[1003], 23:41:48.516, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0  where description = ?  
+txn[1003], 23:41:48.518, FindMany type[Category] origin[Bk5a1p.CJICNk.8cHYC] exeMicros[1659] rows[1] name[] predicates[description = ? ] bind[Ensayo] 
+txn[1003], 23:41:48.518, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0  where category = ?  
+txn[1004], 23:41:48.522, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:41:48.523, FindMany type[Book] origin[BYp0Q.vl9tZ.NVKhd] exeMicros[759] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:41:48.666, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:41:48.667, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxdy] exeMicros[877] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:41:48.697, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:41:48.698, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxsz] exeMicros[656] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:41:48.698, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:41:48.699, FindMany type[Book] origin[BYp0Q.vl9tZ.5px70] exeMicros[263] rows[2] name[] predicates[] bind[] 
+txn[1006], 23:41:48.702, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1006], 23:41:48.702, FindMany type[Category] origin[5OwK7.CJICNk.BU_Bzh] exeMicros[824] rows[5] name[] predicates[] bind[] 
+txn[1006], 23:41:48.714, Rollback 
+txn[1007], 23:41:48.715, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 23:41:48.721, FindMany type[Category] origin[5OwK7.CJICNk.DByVga] exeMicros[5825] rows[5] name[] predicates[] bind[] 
+txn[1007], 23:41:48.728, Rollback 
+txn[1001], 23:42:32.011, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1001], 23:42:32.116, FindMany type[Book] origin[BYp0Q.vl9tZ.CfzBAr] exeMicros[104780] rows[2] name[] predicates[] bind[] 
+txn[1001], 23:42:32.123, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:42:32.128, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[5364] rows[1:1] name[] predicates[] bind[1] 
+txn[1001], 23:42:32.129, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:42:32.130, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[1257] rows[1:2] name[] predicates[] bind[2] 
+txn[1002], 23:42:32.138, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1002], 23:42:32.139, FindMany type[Book] origin[BYp0Q.vl9tZ.znWjN] exeMicros[804] rows[2] name[] predicates[] bind[] 
+txn[1003], 23:42:32.143, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0  where description = ?  
+txn[1003], 23:42:32.144, FindMany type[Category] origin[Bk5a1p.CJICNk.8cHYC] exeMicros[1663] rows[1] name[] predicates[description = ? ] bind[Ensayo] 
+txn[1003], 23:42:32.145, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0  where category = ?  
+txn[1004], 23:42:32.149, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:42:32.150, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxdy] exeMicros[766] rows[2] name[] predicates[] bind[] 
+txn[1004], 23:42:32.192, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:42:32.193, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxsz] exeMicros[610] rows[2] name[] predicates[] bind[] 
+txn[1004], 23:42:32.193, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:42:32.194, FindMany type[Book] origin[BYp0Q.vl9tZ.5px70] exeMicros[474] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:42:32.196, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:42:32.197, FindMany type[Book] origin[BYp0Q.vl9tZ.NVKhd] exeMicros[582] rows[2] name[] predicates[] bind[] 
+txn[1006], 23:42:32.315, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1006], 23:42:32.316, FindMany type[Category] origin[5OwK7.CJICNk.BU_Bzh] exeMicros[874] rows[5] name[] predicates[] bind[] 
+txn[1006], 23:42:32.328, Rollback 
+txn[1007], 23:42:32.329, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 23:42:32.330, FindMany type[Category] origin[5OwK7.CJICNk.DByVga] exeMicros[757] rows[5] name[] predicates[] bind[] 
+txn[1007], 23:42:32.334, Rollback 
+txn[1001], 23:47:57.914, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1001], 23:47:58.017, FindMany type[Book] origin[BYp0Q.vl9tZ.CfzBAr] exeMicros[103475] rows[2] name[] predicates[] bind[] 
+txn[1001], 23:47:58.024, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:47:58.029, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[5309] rows[1:1] name[] predicates[] bind[1] 
+txn[1001], 23:47:58.030, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:47:58.031, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[1206] rows[1:2] name[] predicates[] bind[2] 
+txn[1002], 23:47:58.038, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1002], 23:47:58.039, FindMany type[Book] origin[BYp0Q.vl9tZ.znWjN] exeMicros[793] rows[2] name[] predicates[] bind[] 
+txn[1003], 23:47:58.043, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0  where description = ?  
+txn[1003], 23:47:58.045, FindMany type[Category] origin[Bk5a1p.CJICNk.8cHYC] exeMicros[1662] rows[1] name[] predicates[description = ? ] bind[Ensayo] 
+txn[1003], 23:47:58.045, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0  where category.id = ?  
+txn[1003], 23:47:58.051, ERROR executing query:   bindLog[5] error[ERROR: missing FROM-clause entry for table "category"\n   Position: 77] 
+txn[1003], 23:47:58.056, Rollback 
+txn[1004], 23:47:58.075, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:47:58.083, FindMany type[Book] origin[BYp0Q.vl9tZ.NVKhd] exeMicros[7895] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:47:58.185, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:47:58.186, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxdy] exeMicros[835] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:47:58.213, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:47:58.214, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxsz] exeMicros[675] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:47:58.214, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:47:58.215, FindMany type[Book] origin[BYp0Q.vl9tZ.5px70] exeMicros[285] rows[2] name[] predicates[] bind[] 
+txn[1006], 23:47:58.218, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1006], 23:47:58.218, FindMany type[Category] origin[5OwK8.CJICNk.BU_Bzh] exeMicros[807] rows[5] name[] predicates[] bind[] 
+txn[1006], 23:47:58.224, Rollback 
+txn[1007], 23:47:58.226, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 23:47:58.226, FindMany type[Category] origin[5OwK8.CJICNk.DByVga] exeMicros[793] rows[5] name[] predicates[] bind[] 
+txn[1007], 23:47:58.231, Rollback 
+txn[1001], 23:48:37.883, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1001], 23:48:37.983, FindMany type[Book] origin[BYp0Q.vl9tZ.CfzBAr] exeMicros[99979] rows[2] name[] predicates[] bind[] 
+txn[1001], 23:48:37.991, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:48:37.995, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[4659] rows[1:1] name[] predicates[] bind[1] 
+txn[1001], 23:48:37.996, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:48:37.997, FindMany mode[+lazy] type[Book] origin[BYp0Q.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[1113] rows[1:2] name[] predicates[] bind[2] 
+txn[1002], 23:48:38.004, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1002], 23:48:38.005, FindMany type[Book] origin[BYp0Q.vl9tZ.znWjN] exeMicros[767] rows[2] name[] predicates[] bind[] 
+txn[1003], 23:48:38.009, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0  where description = ?  
+txn[1003], 23:48:38.011, FindMany type[Category] origin[Bk5a1p.CJICNk.8cHYC] exeMicros[1692] rows[1] name[] predicates[description = ? ] bind[Ensayo] 
+txn[1004], 23:48:38.015, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:48:38.016, FindMany type[Book] origin[BYp0Q.vl9tZ.NVKhd] exeMicros[759] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:48:38.134, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:48:38.135, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxdy] exeMicros[844] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:48:38.160, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:48:38.161, FindMany type[Book] origin[BYp0Q.vl9tZ.5pxsz] exeMicros[632] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:48:38.161, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:48:38.162, FindMany type[Book] origin[BYp0Q.vl9tZ.5px70] exeMicros[272] rows[2] name[] predicates[] bind[] 
+txn[1006], 23:48:38.166, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1006], 23:48:38.166, FindMany type[Category] origin[5OwK8.CJICNk.BU_Bzh] exeMicros[833] rows[5] name[] predicates[] bind[] 
+txn[1006], 23:48:38.178, Rollback 
+txn[1007], 23:48:38.179, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 23:48:38.180, FindMany type[Category] origin[5OwK8.CJICNk.DByVga] exeMicros[743] rows[5] name[] predicates[] bind[] 
+txn[1007], 23:48:38.185, Rollback 
+txn[1001], 23:54:13.069, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1001], 23:54:13.168, FindMany type[Book] origin[BYp0S.vl9tZ.CfzBAr] exeMicros[98631] rows[2] name[] predicates[] bind[] 
+txn[1001], 23:54:13.176, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:54:13.180, FindMany mode[+lazy] type[Book] origin[BYp0S.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[4691] rows[1:1] name[] predicates[] bind[1] 
+txn[1001], 23:54:13.181, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:54:13.182, FindMany mode[+lazy] type[Book] origin[BYp0S.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[1095] rows[1:2] name[] predicates[] bind[2] 
+txn[1002], 23:54:13.189, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1002], 23:54:13.190, FindMany type[Book] origin[BYp0S.vl9tZ.znWjN] exeMicros[793] rows[2] name[] predicates[] bind[] 
+txn[1003], 23:54:13.194, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0  where description = ?  
+txn[1003], 23:54:13.196, FindMany type[Category] origin[Bk5a1r.CJICNk.8cHYC] exeMicros[1737] rows[1] name[] predicates[description = ? ] bind[Ensayo] 
+txn[1004], 23:54:13.211, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:54:13.212, FindMany type[Book] origin[BYp0S.vl9tZ.NVKhd] exeMicros[748] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:54:13.339, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:54:13.340, FindMany type[Book] origin[BYp0S.vl9tZ.5pxdy] exeMicros[817] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:54:13.367, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:54:13.368, FindMany type[Book] origin[BYp0S.vl9tZ.5pxsz] exeMicros[673] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:54:13.368, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:54:13.369, FindMany type[Book] origin[BYp0S.vl9tZ.5px70] exeMicros[250] rows[2] name[] predicates[] bind[] 
+txn[1006], 23:54:13.372, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1006], 23:54:13.373, FindMany type[Category] origin[5OwLB.CJICNk.BU_Bzh] exeMicros[805] rows[5] name[] predicates[] bind[] 
+txn[1006], 23:54:13.384, Rollback 
+txn[1007], 23:54:13.385, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 23:54:13.386, FindMany type[Category] origin[5OwLB.CJICNk.DByVga] exeMicros[862] rows[5] name[] predicates[] bind[] 
+txn[1007], 23:54:13.392, Rollback 
+txn[1001], 23:55:08.042, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1001], 23:55:08.140, FindMany type[Book] origin[BYp0S.vl9tZ.CfzBAr] exeMicros[98057] rows[2] name[] predicates[] bind[] 
+txn[1001], 23:55:08.147, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:55:08.152, FindMany mode[+lazy] type[Book] origin[BYp0S.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[4888] rows[1:1] name[] predicates[] bind[1] 
+txn[1001], 23:55:08.152, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:55:08.153, FindMany mode[+lazy] type[Book] origin[BYp0S.vl9tZ.CfzBAr] load[path:categories batch:1 actual:1] exeMicros[1168] rows[1:2] name[] predicates[] bind[2] 
+txn[1002], 23:55:08.160, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1002], 23:55:08.161, FindMany type[Book] origin[BYp0S.vl9tZ.znWjN] exeMicros[762] rows[2] name[] predicates[] bind[] 
+txn[1003], 23:55:08.165, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0  where description = ?  
+txn[1003], 23:55:08.167, FindMany type[Category] origin[Bk5a1r.CJICNk.8cHYC] exeMicros[1695] rows[1] name[] predicates[description = ? ] bind[Ensayo] 
+txn[1004], 23:55:08.182, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:55:08.183, FindMany type[Book] origin[BYp0S.vl9tZ.5pxdy] exeMicros[794] rows[2] name[] predicates[] bind[] 
+txn[1004], 23:55:08.221, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:55:08.222, FindMany type[Book] origin[BYp0S.vl9tZ.5pxsz] exeMicros[603] rows[2] name[] predicates[] bind[] 
+txn[1004], 23:55:08.222, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:55:08.223, FindMany type[Book] origin[BYp0S.vl9tZ.5px70] exeMicros[520] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:55:08.231, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:55:08.232, FindMany type[Book] origin[BYp0S.vl9tZ.NVKhd] exeMicros[558] rows[2] name[] predicates[] bind[] 
+txn[1006], 23:55:08.340, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1006], 23:55:08.341, FindMany type[Category] origin[5OwLB.CJICNk.BU_Bzh] exeMicros[887] rows[5] name[] predicates[] bind[] 
+txn[1006], 23:55:08.354, Rollback 
+txn[1007], 23:55:08.356, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 23:55:08.356, FindMany type[Category] origin[5OwLB.CJICNk.DByVga] exeMicros[776] rows[5] name[] predicates[] bind[] 
+txn[1007], 23:55:08.362, Rollback 
+txn[1001], 23:58:35.350, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1001], 23:58:35.447, FindMany type[Book] origin[BYp0S.vl9tZ.Cfy5vM] exeMicros[97454] rows[2] name[] predicates[] bind[] 
+txn[1001], 23:58:35.454, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:58:35.460, FindMany mode[+lazy] type[Book] origin[BYp0S.vl9tZ.Cfy5vM] load[path:categories batch:1 actual:1] exeMicros[5326] rows[1:1] name[] predicates[] bind[1] 
+txn[1001], 23:58:35.460, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:58:35.461, FindMany mode[+lazy] type[Book] origin[BYp0S.vl9tZ.Cfy5vM] load[path:categories batch:1 actual:1] exeMicros[1145] rows[1:2] name[] predicates[] bind[2] 
+txn[1002], 23:58:35.468, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1002], 23:58:35.469, FindMany type[Book] origin[BYp0S.vl9tZ.znPRu] exeMicros[790] rows[2] name[] predicates[] bind[] 
+txn[1003], 23:58:35.473, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0  where description = ?  
+txn[1003], 23:58:35.475, FindMany type[Category] origin[Bk5a1r.CJICNk.8cAGj] exeMicros[1695] rows[1] name[] predicates[description = ? ] bind[Ensayo] 
+txn[1004], 23:58:35.501, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:58:35.502, FindMany type[Book] origin[BYp0S.vl9tZ.NVKhd] exeMicros[749] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:58:35.601, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:58:35.602, FindMany type[Book] origin[BYp0S.vl9tZ.5pp9S] exeMicros[816] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:58:35.628, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:58:35.628, FindMany type[Book] origin[BYp0S.vl9tZ.5pqMT] exeMicros[682] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:58:35.629, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:58:35.629, FindMany type[Book] origin[BYp0S.vl9tZ.5pqbU] exeMicros[323] rows[2] name[] predicates[] bind[] 
+txn[1006], 23:58:35.633, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1006], 23:58:35.634, FindMany type[Category] origin[5OwLB.CJICNk.BU_Bzh] exeMicros[861] rows[5] name[] predicates[] bind[] 
+txn[1006], 23:58:35.647, Rollback 
+txn[1007], 23:58:35.649, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 23:58:35.649, FindMany type[Category] origin[5OwLB.CJICNk.DByVga] exeMicros[785] rows[5] name[] predicates[] bind[] 
+txn[1007], 23:58:35.655, Rollback 
+txn[1001], 23:58:54.820, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1001], 23:58:54.920, FindMany type[Book] origin[BYp0S.vl9tZ.Cfy5vM] exeMicros[99828] rows[2] name[] predicates[] bind[] 
+txn[1001], 23:58:54.927, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:58:54.932, FindMany mode[+lazy] type[Book] origin[BYp0S.vl9tZ.Cfy5vM] load[path:categories batch:1 actual:1] exeMicros[4827] rows[1:1] name[] predicates[] bind[1] 
+txn[1001], 23:58:54.932, select t0.id as c0         , t1.id as c1, t1.description as c2, t1.recommended_age as c3  from book t0 left outer join suggestion t1z_ on t1z_.book = t0.id  left outer join category t1 on t1.id = t1z_.category  where t0.id = ?    order by t0.id 
+txn[1001], 23:58:54.933, FindMany mode[+lazy] type[Book] origin[BYp0S.vl9tZ.Cfy5vM] load[path:categories batch:1 actual:1] exeMicros[1132] rows[1:2] name[] predicates[] bind[2] 
+txn[1002], 23:58:54.941, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1002], 23:58:54.941, FindMany type[Book] origin[BYp0S.vl9tZ.znPRu] exeMicros[768] rows[2] name[] predicates[] bind[] 
+txn[1003], 23:58:54.946, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0  where description = ?  
+txn[1003], 23:58:54.947, FindMany type[Category] origin[Bk5a1r.CJICNk.8cAGj] exeMicros[1669] rows[1] name[] predicates[description = ? ] bind[Ensayo] 
+txn[1004], 23:58:54.963, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1004], 23:58:54.963, FindMany type[Book] origin[BYp0S.vl9tZ.NVKhd] exeMicros[793] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:58:55.123, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:58:55.127, FindMany type[Book] origin[BYp0S.vl9tZ.5pp9S] exeMicros[3355] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:58:55.154, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:58:55.155, FindMany type[Book] origin[BYp0S.vl9tZ.5pqMT] exeMicros[675] rows[2] name[] predicates[] bind[] 
+txn[1005], 23:58:55.155, select t0.id as c0, t0.title as c1, t0.published as c2  from book t0 
+txn[1005], 23:58:55.155, FindMany type[Book] origin[BYp0S.vl9tZ.5pqbU] exeMicros[275] rows[2] name[] predicates[] bind[] 
+txn[1006], 23:58:55.158, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1006], 23:58:55.159, FindMany type[Category] origin[5OwLB.CJICNk.BU_Bzh] exeMicros[800] rows[5] name[] predicates[] bind[] 
+txn[1006], 23:58:55.172, Rollback 
+txn[1007], 23:58:55.173, select t0.id as c0, t0.description as c1, t0.recommended_age as c2  from category t0 
+txn[1007], 23:58:55.174, FindMany type[Category] origin[5OwLB.CJICNk.DByVga] exeMicros[735] rows[5] name[] predicates[] bind[] 
+txn[1007], 23:58:55.179, Rollback 

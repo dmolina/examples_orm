@@ -1,0 +1,34 @@
+package org.uca.gii.mybatis.persistence;
+import static org.junit.Assert.*;
+
+import java.util.List;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
+
+import org.junit.Test;
+
+import org.uca.gii.mybatis.persistence.PersistenceFactory;
+import org.uca.gii.mybatis.data.Book;
+
+public class TestBooks extends TestBD {
+	@Test
+	public void testNotEmpty() {
+		List<Book> books = PersistenceFactory.getInterfaceDB().getBooks();
+		Logger log = LoggerFactory.getLogger(TestBooks.class);
+		
+		for (Book book : books) {
+			log.info(book.toString());
+		}
+		assertFalse(books.isEmpty());
+	}
+	
+	@Test
+	public void testCategories() {
+List<Book> books = PersistenceFactory.getInterfaceDB().getBooks();
+		
+		for (Book book : books) {
+			assertNotNull(book.getCategories());
+		}
+	}
+
+}
