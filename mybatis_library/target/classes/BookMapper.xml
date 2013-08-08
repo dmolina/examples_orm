@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.1//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.uca.gii.mybatis.dao.ConsultaBD">
+    <resultMap id="resultAuthor" type="Author">
+    <result property="name" column="name"/>
+    <result property="age" column="edad"/>
+    <result property="genero" column="genero"/>
+    <result property="direction" column="direccion"/>
+    </resultMap>
+
+    <resultMap id="resultBook" type="Book">
+    <result property="title" column="title" />
+    <association property="author" column="author_id" javaType="Author" 
+    select="getAuthor"/>
+    <collection property="categories" ofType="Category" resultMap="resultCategory"
+    columnPrefix="category_" />
+    </resultMap>
+    
+    <resultMap id="resultCategory" type="Category">
+    <result property="description" column="description" />
+    <result property="minimum_age" column="recommended_age" />
+    </resultMap>
+    <sql id="get_book">
+    select title,author as author_id,suggestion.category as category_id,
+    category.description as category_description, 
+    category.recommended_age as category_recommended_age 
+    from book, publish, suggestion, category
+    	where book.id = publish.book and book.id=suggestion.book
+    	and category.id = suggestion.category
+    </sql>
+    <select id="getBooks" resultMap="resultBook">
+    <include refid="get_book"/>
+    </select>
+     <select id="getAuthor" parameterType="int" resultMap="resultAuthor">
+    select * from author where id=#{id}
+    </select>
+    <select id="getCategory" parameterType="int" resultMap="resultCategory">
+    select * from category where id=#{id}
+    </select>
+    <select id="getByCategory" resultMap="resultBook">
+    <include refid="get_book"/>
+    and category.description=#{description}    
+    </select>
+    
+</mapper>

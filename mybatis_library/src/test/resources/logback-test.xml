@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration debug="false"> 
+
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+   
+    <layout class="ch.qos.logback.classic.PatternLayout">
+      <pattern>%d{HH:mm:ss.SSS} %logger{12} [%level] - %msg%n</pattern>
+    </layout>
+  </appender>
+
+  <root level="error">
+    <appender-ref ref="STDOUT" />
+  </root>
+  <!-- 
+  <logger name="java.sql" level="debug"/>
+   -->
+  <logger name="org.uca" level="info"/>
+  </configuration>
